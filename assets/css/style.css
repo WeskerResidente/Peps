@@ -202,5 +202,34 @@ h1 {
     text-align: center;
     line-height: 2.5;
     padding: 0;
+    font-weight: bold;
 
+
+}
+.case-talent h2:after {
+    content: "";
+    display: block;
+    height: 20px;
+    width: 110%;
+    background-color: #68D8EE;
+    margin-top: -1rem;
+    margin-left: -0.6rem;
+}
+.case-carriere h2:after {
+    content: "";
+    display: block;
+    height: 20px;
+    width: 110%;
+    background-color: #FFE17A;
+    margin-top: -1rem;
+    margin-left: -0.6rem;
+}
+.case-force h2:after {
+    content: "";
+    display: block;
+    height: 20px;
+    width: 110%;
+    background-color: #DB7CF2;
+    margin-top: -1rem;
+    margin-left: -0.9rem;
 }
