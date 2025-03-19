@@ -16,13 +16,14 @@ h3 {
     font-size: 24px;    
 }
 p {
-    font-family: "roboto";
+    font-family: "roboto regular";
 }
 * {
     box-sizing: border-box;
 }
 li {
-   list-style: none; 
+   list-style: none;
+   font-family: "roboto regular";
 }
 a {
     text-decoration: none;
@@ -116,4 +117,65 @@ h1 {
 
     height: 100%;
     margin-top: 3rem;
+}
+.ligne {
+
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin: 10rem 0;
+
+}
+.methode-peps {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    
+
+}
+.methode-peps :nth-child(2) {
+    width: 50%;
+}
+
+.btn-secondary {
+
+    font-family: "roboto regular";
+    background-color: white;
+    color: #FF4676;
+    padding: 0.5rem 1rem;
+    border:1px solid #FF4676;
+    text-transform: uppercase;
+
+}
+.proposition {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-evenly;
+
+
+
+}
+/* .proposition div {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+} */
+.chartes {
+
+    width: 20%;
+
+
+}
+.charte {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+
 }
