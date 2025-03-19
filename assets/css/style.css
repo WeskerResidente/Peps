@@ -7,6 +7,17 @@
     src: url(../fonts/Roboto-Bold.ttf);
     font-variant: small-caps
 }
+h2 {
+    font-family: "roboto bold";
+    font-size: 28px;
+}
+h3 {
+    font-family: "roboto bold";
+    font-size: 24px;    
+}
+p {
+    font-family: "roboto";
+}
 * {
     box-sizing: border-box;
 }
@@ -23,7 +34,7 @@ body{
 }
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     width: 100%;
     max-width: 1200px;
     margin-left: 2.5rem;
@@ -43,7 +54,7 @@ header nav ul {
 
 header nav ul li {
     border-right: 2px solid black;
-    padding-right: 2rem;
+    padding-right: 1rem;
 }
 header nav ul :last-child{
     border-right: none;
@@ -53,9 +64,11 @@ header nav ul :last-child{
     width: 4%;
 }
 .btn-cta {
-    background-color: #fc4371;
+    font-family: "roboto regular";
+    background-color: #FF4676;
     color: white;
-    padding: 0.5rem;
+    padding: 0.5rem 1rem;
+
 
 }
 .banner {
@@ -72,6 +85,35 @@ header nav ul :last-child{
 }
 h1 {
     font-family: "roboto bold";
+    font-size: 4rem;
     text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.295);
+    margin: 4px 0;
 
+}
+.Container {
+
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+
+}
+.intro h2 {
+    margin-bottom: 0;
+}
+.accroche {
+    display: flex;
+    margin: 0rem 5rem;
+    justify-content: flex-end;
+
+}
+.transition {
+    margin-left: 60px;
+}
+.accroche img {
+
+    height: 100%;
+    margin-top: 3rem;
 }
