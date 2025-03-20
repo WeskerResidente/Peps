@@ -91,10 +91,6 @@ h1 {
     margin: 4px 0;
 
 }
-.Container {
-
-}
-
 .intro {
     display: flex;
     flex-direction: column;
@@ -145,6 +141,7 @@ h1 {
     padding: 0.5rem 1rem;
     border:1px solid #FF4676;
     text-transform: uppercase;
+    border-radius: 2px;
 
 }
 .proposition {
@@ -266,17 +263,12 @@ h1 {
     top: 7.5rem ;
     left: 2.5rem;
     border: 10px solid white;
-
-
 }
 .nico  {
 
     position: relative;
     top: 7.5em ;
     border: 10px solid white;
-
-
-
 }
 .cecile  {
 
@@ -284,6 +276,49 @@ h1 {
     top: 7.5rem ;
     right: 3rem;
     border: 10px solid white;
+}
+.chapitre {
+    text-align: center;
+}
+.blog {
+    display: flex;
+    margin: 1.4rem 5rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #68D8EE ;
+}
+.imgblog {
+    padding: 0 2rem 0 1rem;
+}
+.imgblog img {
+    height: 15rem;
+    width: 15rem;
+    object-fit: cover;
+}
+.blog-txt {
+    padding-right: 2rem;
 
+    
+}
+.blog-txt h2 {
+    font-size: 20px;
 
+}
+.blog-txt h3 {
+    font-size: 15px;
+
+}
+.btn-secondary-blog {
+
+    font-family: "roboto regular";
+    font-size:medium;
+    font-weight: bold;
+    background-color: white;
+    color: #FF4676;
+    padding: 0.8rem 3rem;
+    border:1px solid #FF4676;
+    text-transform: uppercase;
+    border-radius: 2px;
+}
+.button {
+    margin-top: 2rem;
 }
