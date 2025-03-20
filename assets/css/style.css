@@ -246,11 +246,44 @@ h1 {
 }
 .temoignage div {
     border: 2px solid #68D8EE ;
-    width: 30%;
+    width: 100%;
     text-align: center;
     padding-top: 5rem;
+    margin-top: 3rem;
 }
 .temoignage div p  {
 
     margin: 0 7% ;
+}
+.photos {
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+}
+.stephane  {
+
+    position: relative;
+    top: 7.5rem ;
+    left: 2.5rem;
+    border: 10px solid white;
+
+
+}
+.nico  {
+
+    position: relative;
+    top: 7.5em ;
+    border: 10px solid white;
+
+
+
+}
+.cecile  {
+
+    position: relative;
+    top: 7.5rem ;
+    right: 3rem;
+    border: 10px solid white;
+
+
 }
