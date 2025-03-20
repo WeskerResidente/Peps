@@ -329,30 +329,37 @@ footer {
 .footer {
     display: flex;
     justify-content: center;
-
-
-
-
 }
 .footer-contact {
     display: flex;
     flex-direction: column;
     width: 20%;
+    margin-top: 2rem;
+
 }
 .footer-mention {
     display: flex;
     justify-content: center;
 }
 .img-footer {
+    margin-top: 2rem;
+    margin-right: 2rem;
     width: 10%;
+    height: 10%;
     object-position: right;
+    border-right: 2px solid black;
+    padding: 0;
 }
 .img-footer img {
 
     padding-top: 2rem;
 }
-.img-footer:after {
+.footer-contact p {
+    margin-top: 0;
+    font-size: 15px;
+}
+.footer-mention :nth-child(-n+3):after {
     content: "|";
     margin: 0 10px;
     color: #000;
- }
+  }
