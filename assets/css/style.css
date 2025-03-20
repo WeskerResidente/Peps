@@ -274,12 +274,15 @@ h1 {
     left: 2.5rem;
     border: 10px solid white;
 }
-.nico  {
+.nico {
 
     position: relative;
     top: 7.5em ;
     border: 10px solid white;
+
+
 }
+
 .cecile  {
 
     position: relative;
@@ -425,6 +428,7 @@ footer {
 
     }
 }
+
 @media screen and (max-width: 375px) {
     
     header {
@@ -496,20 +500,28 @@ footer {
     .photos {
         flex-direction: column;
         align-items:center;
-
-
     }
+        
+    .temoignages {
+
+        align-content: space-between;
+    }
+    
     .stephane{
+
+
+
         left: 0;
         top: 20rem;
     }
     .nico {
-        top: 74rem;
+        top: 65rem;
+
 
     }
     .cecile {
         right: 0;
-        top: 115rem;
+        top: 100rem;
     }
     .blog{
         flex-direction: column;
@@ -550,3 +562,4 @@ footer {
         margin: 0 0px;
         color: #000; }
 }
+
