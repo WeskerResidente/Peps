@@ -67,6 +67,7 @@ header nav ul :last-child{
 .logo-header {
     width: 8%;
     margin-top: 1%;
+    overflow: hidden;
 }
 .logo-header img {
     object-fit: cover;
@@ -93,6 +94,7 @@ header nav ul :last-child{
     text-align: center;
 }
 h1 {
+    overflow: hidden;
     font-family: "roboto bold";
     font-size: 4rem;
     text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.295);
@@ -422,7 +424,129 @@ footer {
         margin-left: 5rem;    
 
     }
+}
+@media screen and (max-width: 375px) {
+    
+    header {
+        flex-direction: column;
+        align-items: center;
+
+    }
+    header nav ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
 
 
+        
+    }
+    header nav ul li {
+        border: none;
+        padding: 0;
+        text-align: center;
+    }
+    .logo-header {
+        width: 25%;
+        margin-left: 0;
+    }
+    .banner h1 {
+        font-size: xx-large;
+    }
+    .accroche-img {
+        margin-left: 0;
+        margin-right: 2px;
+    }
+    .accroche {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } 
+    .transition h2{
+
+        margin-left: 0;
+        margin-right: 0;
+        align-items: center;
+    }
+    .methode-peps h2 {
+        text-align: center;
+    }
+    .proposition {
+        flex-direction: column;
+    }
+    .chartes {
+        width: 100%;
+        padding: 0rem 1rem;
+    }
+    .charte {
+        padding-top: 1rem;
+    }
+    .decouvre {
+        flex-direction: column;
+    }
+    .case-carriere{
+        margin-top: 1rem;
+    }
+    .case-force {
+        margin-top: 2rem;
+    }
+    .temoignage {
+        flex-direction: column;
+    }
+    .photos {
+        flex-direction: column;
+        align-items:center;
+
+
+    }
+    .stephane{
+        left: 0;
+        top: 20rem;
+    }
+    .nico {
+        top: 74rem;
+
+    }
+    .cecile {
+        right: 0;
+        top: 115rem;
+    }
+    .blog{
+        flex-direction: column;
+        align-items:center;
+
+    }
+    .chapitre h3 {
+        margin: 0 1rem;
+    }
+    .blog {
+        display: flex;
+        margin: 1.4rem 2rem;
+        padding-bottom: 2rem;
+        border-bottom: 2px solid #68D8EE ;
+    }
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .img-footer{
+        width: 50%;
+        overflow: hidden;
+        margin-left: 8rem;
+        border: none;
+    }
+    .footer-contact{
+        width: 100%;
+        margin-left: 1rem;
+        align-items: center;
+    }
+    .footer-mention {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-mention :nth-child(-n+3):after {
+        content: "";
+        margin: 0 0px;
+        color: #000; }
 }
